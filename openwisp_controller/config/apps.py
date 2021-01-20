@@ -146,6 +146,11 @@ class ConfigConfig(AppConfig):
                     'model': 'device',
                     'group_by': 'config__status',
                 },
-                'colors': {'applied': 'green', 'modified': 'orange', 'error': 'red'},
+                'colors': {
+                    'applied': 'green',
+                    'modified': 'orange',
+                    'error': 'red',
+                    'None': 'grey',
+                },
             },
         )
